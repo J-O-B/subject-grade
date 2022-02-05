@@ -110,7 +110,7 @@ function results(){
 
     // Display Results
     for (i=0; i<gradeBook.length; i++){
-        let output = `<strong>Subject:</strong> <em>${gradeBook[i]['subject']}</em>,<br><strong>Score:</strong> <em>${gradeBook[i]['grade']}</em>,<br><strong>Grade of Reslut:</strong> <em><strong>${gradeBook[i]['mark']}</strong></em><br><br><hr>`;
+        let output = `<strong>Subject:</strong> <em>${gradeBook[i]['subject']}</em>,<br><strong>Score:</strong> <em>${gradeBook[i]['grade']}</em>,<br><strong>Grade of Reslut:</strong> <em>${gradeBook[i]['mark']}</em><br><br><hr>`;
         placeAns.innerHTML += output;
     }
     // Return Button
